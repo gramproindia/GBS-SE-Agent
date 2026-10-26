@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gramproindia/GBS-SE-Agent.git"
+    "url": "https://github.com/gramproindia/agent.git"
   },
   "bugs": {
-    "url": "https://github.com/gramproindia/GBS-SE-Agent/issues"
+    "url": "https://github.com/gramproindia/agent/issues"
   },
   "homepage": "https://kit.gramproindia.com/se-agent",
   "version": "0.0.13",

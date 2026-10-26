@@ -1,6 +1,6 @@
 # GBS SE Agent
 
-[![CI](https://github.com/gramproindia/GBS-SE-Agent/actions/workflows/ci.yml/badge.svg)](https://github.com/gramproindia/GBS-SE-Agent/actions/workflows/ci.yml)
+[![CI](https://github.com/gramproindia/agent/actions/workflows/ci.yml/badge.svg)](https://github.com/gramproindia/agent/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 An autonomous coding agent inside VS Code. Describe a task in the chat panel and the agent explores your codebase, edits files, runs commands, and shows every step as it works. It runs on **local models** (Ollama, LM Studio, llama.cpp, vLLM) or any **OpenAI-compatible** cloud endpoint (Hugging Face router, OpenRouter, …).
@@ -408,8 +408,8 @@ The provider, model, endpoints, permission mode, shell, skills path and MCP serv
 To work on the extension itself:
 
 ```
-git clone https://github.com/gramproindia/GBS-SE-Agent.git
-cd GBS-SE-Agent
+git clone https://github.com/gramproindia/agent.git
+cd agent
 npm install
 code .
 ```

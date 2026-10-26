@@ -6,7 +6,7 @@ before anything else.
 ## Reporting a vulnerability
 
 **Do not open a public issue.** Report it privately through GitHub:
-[Security → Report a vulnerability](https://github.com/gramproindia/GBS-SE-Agent/security/advisories/new).
+[Security → Report a vulnerability](https://github.com/gramproindia/agent/security/advisories/new).
 
 Please include:
 

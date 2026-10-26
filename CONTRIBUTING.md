@@ -7,8 +7,8 @@ Thanks for helping. This guide covers setting up, the checks a change must pass,
 Requirements: Node.js 22, VS Code 1.120 or later, and Git.
 
 ```bash
-git clone https://github.com/gramproindia/GBS-SE-Agent.git
-cd GBS-SE-Agent
+git clone https://github.com/gramproindia/agent.git
+cd agent
 npm install
 code .
 ```
@@ -56,7 +56,7 @@ obvious.
 
 ## Reporting bugs and asking for features
 
-Use the [issue templates](https://github.com/gramproindia/GBS-SE-Agent/issues/new/choose). Security problems go
+Use the [issue templates](https://github.com/gramproindia/agent/issues/new/choose). Security problems go
 through [private reporting](SECURITY.md), never a public issue.
 
 ## License

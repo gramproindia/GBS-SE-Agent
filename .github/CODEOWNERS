@@ -1,0 +1,8 @@
+# Reviewers requested automatically for pull requests. Add a second maintainer here.
+* @anandhuremanan
+
+# Changes to what the agent may do without asking need a maintainer review.
+/src/agent/permissions.ts @anandhuremanan
+/src/config.ts @anandhuremanan
+/src/mcp/ @anandhuremanan
+/SECURITY.md @anandhuremanan

@@ -1,0 +1,6 @@
+# Keep LF in the repository and in working copies on every OS (the build and tests expect it).
+* text=auto eol=lf
+
+*.png binary
+*.pdf binary
+*.vsix binary

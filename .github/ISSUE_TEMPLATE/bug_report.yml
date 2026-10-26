@@ -1,0 +1,50 @@
+name: Bug report
+description: Something does not work as described.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Security problems must not be reported here. Use [private reporting](https://github.com/gramproindia/GBS-SE-Agent/security/advisories/new) instead.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open a project with ...
+        2. Ask the agent to ...
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Extension version
+      placeholder: "0.0.13"
+    validations:
+      required: true
+  - type: input
+    id: vscode
+    attributes:
+      label: VS Code version and OS
+      placeholder: "1.142.0, Windows 11"
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Provider and model
+      placeholder: "Ollama, qwen3-coder:30b"
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: From **GBS Agent: Show Logs**. Remove anything confidential (code, paths, tokens) before pasting.
+      render: text

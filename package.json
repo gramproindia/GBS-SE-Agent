@@ -11,8 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/anandhuremanan/gb-codex"
+    "url": "https://github.com/gramproindia/GBS-SE-Agent.git"
   },
+  "bugs": {
+    "url": "https://github.com/gramproindia/GBS-SE-Agent/issues"
+  },
+  "homepage": "https://github.com/gramproindia/GBS-SE-Agent#readme",
   "version": "0.0.13",
   "engines": {
     "vscode": "^1.120.0"

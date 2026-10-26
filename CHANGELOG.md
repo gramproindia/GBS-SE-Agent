@@ -1,8 +1,7 @@
-# Change Log
+# Changelog
 
-All notable changes to the "gbs-local-dev" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+All notable changes to GBS SE Agent are documented in this file. The format follows
+[Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project uses [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
@@ -18,6 +17,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ### Changed
 - Writing `.mcp.json` now needs approval, like other files that configure what runs.
+- The source moved to [gramproindia/GBS-SE-Agent](https://github.com/gramproindia/GBS-SE-Agent), now with an MIT
+  license file, a security policy, contribution guidelines, and CI on Windows, macOS and Linux.
 
 ## [0.0.13] - 2026-10-05
 

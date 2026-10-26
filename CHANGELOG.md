@@ -19,6 +19,9 @@ All notable changes to GBS SE Agent are documented in this file. The format foll
 - Writing `.mcp.json` now needs approval, like other files that configure what runs.
 - The source moved to [gramproindia/GBS-SE-Agent](https://github.com/gramproindia/GBS-SE-Agent), now with an MIT
   license file, a security policy, contribution guidelines, and CI on Windows, macOS and Linux.
+- The documentation moved to [kit.gramproindia.com/se-agent](https://kit.gramproindia.com/se-agent): how-to guides,
+  architecture pages with diagrams that follow the site's light and dark theme, and an updated plain-English guide
+  (PDF). The old product page in `docs/` is gone.
 
 ## [0.0.13] - 2026-10-05
 

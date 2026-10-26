@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/gramproindia/GBS-SE-Agent/issues"
   },
-  "homepage": "https://github.com/gramproindia/GBS-SE-Agent#readme",
+  "homepage": "https://kit.gramproindia.com/se-agent",
   "version": "0.0.13",
   "engines": {
     "vscode": "^1.120.0"

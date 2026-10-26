@@ -5,6 +5,8 @@
 
 An autonomous coding agent inside VS Code. Describe a task in the chat panel and the agent explores your codebase, edits files, runs commands, and shows every step as it works. It runs on **local models** (Ollama, LM Studio, llama.cpp, vLLM) or any **OpenAI-compatible** cloud endpoint (Hugging Face router, OpenRouter, …).
 
+**Documentation:** [kit.gramproindia.com/se-agent](https://kit.gramproindia.com/se-agent) has the how-to guides, the architecture with diagrams, and a [plain-English guide (PDF)](https://kit.gramproindia.com/se-agent/GBS-SE-Agent-Explained.pdf).
+
 ## Get started
 
 ### 1. Install the extension
@@ -415,7 +417,7 @@ code .
 - Press <kbd>F5</kbd> to launch an Extension Development Host with the extension loaded. Rebuilds happen automatically through the watch task.
 - `npm test` runs the integration tests in a real VS Code instance.
 
-See [architecture.md](architecture.md) for how the agent works, and [CONTRIBUTING.md](CONTRIBUTING.md) for the checks and review process.
+See [architecture.md](architecture.md) for how the agent works, and [CONTRIBUTING.md](CONTRIBUTING.md) for the checks and review process. The user documentation lives in the GramproKit docs site, under `docs-site/app/content/se-agent/` in [gramproindia/kit](https://github.com/gramproindia/kit).
 
 ## Security
 

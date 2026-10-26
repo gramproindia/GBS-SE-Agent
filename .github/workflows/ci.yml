@@ -45,12 +45,19 @@ jobs:
           key: vscode-test-${{ runner.os }}-${{ hashFiles('package.json') }}
 
       - name: Integration tests
-        if: runner.os == 'Linux'
-        run: xvfb-run -a npm test
+        shell: bash
+        run: |
+          set -o pipefail
+          if [ "$RUNNER_OS" = "Linux" ]; then
+            xvfb-run -a npm test 2>&1 | tee test-output.log
+          else
+            npm test 2>&1 | tee test-output.log
+          fi
 
-      - name: Integration tests
-        if: runner.os != 'Linux'
-        run: npm test
+      - name: Report failing tests
+        if: failure()
+        shell: bash
+        run: node .github/scripts/report-test-failures.js test-output.log
 
   package:
     name: Package

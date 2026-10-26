@@ -263,13 +263,33 @@
           "additionalProperties": {
             "type": "object",
             "properties": {
-              "command": { "type": "string", "description": "Program to start, e.g. npx or node." },
-              "args": { "type": "array", "items": { "type": "string" } },
-              "env": { "type": "object", "additionalProperties": { "type": "string" } },
-              "cwd": { "type": "string", "description": "Working folder; relative paths are resolved from the workspace. Defaults to the workspace folder." },
-              "disabled": { "type": "boolean" }
+              "command": {
+                "type": "string",
+                "description": "Program to start, e.g. npx or node."
+              },
+              "args": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "env": {
+                "type": "object",
+                "additionalProperties": {
+                  "type": "string"
+                }
+              },
+              "cwd": {
+                "type": "string",
+                "description": "Working folder; relative paths are resolved from the workspace. Defaults to the workspace folder."
+              },
+              "disabled": {
+                "type": "boolean"
+              }
             },
-            "required": ["command"]
+            "required": [
+              "command"
+            ]
           },
           "order": 8
         }
@@ -294,8 +314,8 @@
     "@types/mocha": "^10.0.10",
     "@types/node": "^22.19.21",
     "@types/vscode": "^1.120.0",
-    "@vscode/test-cli": "^0.0.12",
-    "@vscode/test-electron": "^2.5.2",
+    "@vscode/test-cli": "^0.0.15",
+    "@vscode/test-electron": "^3.1.0",
     "@vscode/vsce": "3.9.2",
     "esbuild": "^0.27.3",
     "eslint": "^9.39.3",
